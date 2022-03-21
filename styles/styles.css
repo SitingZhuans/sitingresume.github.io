@@ -65,7 +65,6 @@ main {
 }
 
 main div.homepage {
-  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,6 +211,9 @@ div.footer section a {
   header nav ul li a {
     font-size: 1.25rem;
   }
+  main {
+    margin-top: 10vh;
+  }
   main div.homepage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -220,7 +222,6 @@ div.footer section a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: auto;
   }
   main div.homepage section.right {
     display: -webkit-box;
@@ -236,8 +237,8 @@ div.footer section a {
   }
   main div.homepage section.right img {
     position: static;
-    width: 30vw;
-    height: 30vw;
+    width: 50vw;
+    height: 50vw;
   }
   main div.homepage section.left p {
     font-size: 1.5rem;
