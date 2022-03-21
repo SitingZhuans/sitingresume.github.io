@@ -186,6 +186,7 @@ div.footer section a {
 
 @media screen and (max-width: 1100px) {
   body {
+    height: 90%;
     background: -webkit-gradient(linear, left top, right top, from(#5a96e4), to(#135555));
     background: linear-gradient(90deg, #5a96e4, #135555);
   }
@@ -195,7 +196,10 @@ div.footer section a {
   header {
     background: -webkit-gradient(linear, left top, right top, from(#5a96e4), to(#135555));
     background: linear-gradient(90deg, #5a96e4, #135555);
-    height: 10vh;
+    height: 9vh;
+  }
+  header nav {
+    padding-top: 0;
   }
   header nav ul {
     -webkit-box-orient: horizontal;
@@ -206,13 +210,9 @@ div.footer section a {
   }
   header nav ul li {
     padding: 0.1rem 0rem;
-    border-bottom: 1px solid gray;
   }
   header nav ul li a {
     font-size: 1.25rem;
-  }
-  main {
-    margin-top: 10vh;
   }
   main div.homepage {
     display: -webkit-box;
@@ -233,12 +233,18 @@ div.footer section a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 1rem;
   }
   main div.homepage section.right img {
     position: static;
     width: 50vw;
     height: 50vw;
+  }
+  main div.homepage section.left {
+    padding-top: 10vh;
+    padding-bottom: 0;
+  }
+  main div.homepage section.left h1 {
+    font-size: 2.5rem;
   }
   main div.homepage section.left p {
     font-size: 1.5rem;

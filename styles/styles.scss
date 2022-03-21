@@ -136,6 +136,7 @@ div.footer {
 
 @media screen and (max-width: 1100px) {
   body {
+    height: 90%;
     background: linear-gradient(90deg, rgb(90, 150, 228), rgb(19, 85, 85));
   }
   .orange {
@@ -144,14 +145,14 @@ div.footer {
 
   header {
     background: linear-gradient(90deg, rgb(90, 150, 228), rgb(19, 85, 85));
-    height: 10vh;
+    height: 9vh;
     nav {
+      padding-top: 0;
       ul {
         flex-direction: row;
         width: 100%;
         li {
           padding: 0.1rem 0rem;
-          border-bottom: 1px solid gray;
           a {
             font-size: 1.25rem;
           }
@@ -161,7 +162,6 @@ div.footer {
   }
 
   main {
-    margin-top: 10vh;
     div.homepage {
       display: flex;
       flex-direction: column;
@@ -169,7 +169,6 @@ div.footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 1rem;
 
         img {
           position: static;
@@ -178,6 +177,11 @@ div.footer {
         }
       }
       section.left {
+        padding-top: 10vh;
+        padding-bottom: 0;
+        h1 {
+          font-size: 2.5rem;
+        }
         p {
           font-size: 1.5rem;
         }
